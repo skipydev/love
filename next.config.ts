@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {
-  output: 'export'
-};
+const NextConfig = {
+	output: 'export',
+	basePath: '/love',
+	assetPrefix: '/love',
+	images: {
+		unoptimized: true,
+	},
+}
 
-export default nextConfig;
+export default NextConfig
