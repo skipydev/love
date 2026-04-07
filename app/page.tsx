@@ -28,25 +28,25 @@ const HeartCore = dynamic(() => import('./components/HeartCore'), {
 const memories = [
 	{
 		id: 1,
-		img: '/memories/1.jpg',
+		img: '/love/memories/1.jpg',
 		point: '007_START',
 		text: 'Тот самый день во Владимире',
 	},
 	{
 		id: 2,
-		img: '/memories/2.jpg',
+		img: '/love/memories/2.jpg',
 		point: '007_EXPAND',
 		text: 'Прогулки по набережной Твери',
 	},
 	{
 		id: 3,
-		img: '/memories/3.jpg',
+		img: '/love/memories/3.jpg',
 		point: '007_DEPLOY',
 		text: 'Воронежские закаты и мы',
 	},
 	{
 		id: 4,
-		img: '/memories/4.jpg',
+		img: '/love/memories/4.jpg',
 		point: '007_EXTRACT',
 		text: 'Посмотри насколько ты красива',
 	},
